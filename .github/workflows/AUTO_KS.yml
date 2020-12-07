@@ -4,10 +4,10 @@ name: 快手视频
 
 on:
   workflow_dispatch:
-  schedule:
-     - cron: '*/15 * * * *'
-  watch:
-    types: started
+  # schedule:
+  #   - cron: '*/15 * * * *'
+  # watch:
+  # types: started
 jobs:
   build:
     runs-on: ubuntu-latest
